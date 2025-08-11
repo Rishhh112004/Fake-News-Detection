@@ -1,9 +1,64 @@
-# Fake-News-Detection-using-Macine-Learning
-This repository contains a machine learning-based system to detect whether a given news article is real or fake. 
-It leverages Natural Language Processing (NLP) techniques to analyze text and identify misleading or fabricated information.
-The system leveraging TF-IDF vectorization and Logistic Regression to classify news articles with ~96% accuracy.
-Processed and analyzed 20,000+ news samples from a labeled dataset, implementing data cleaning, tokenization, and stop-word removal for improved model performance.
-Integrated scikit-learn for model training and evaluation, achieving a precision score of 0.95 and reducing false positives by 15% compared to baseline models.
-Designed a streamlined prediction pipeline allowing real-time classification of user-provided text within <1 second.
-Project hosted on GitHub demonstrating end-to-end ML workflow, reproducibility, and deployment readiness.
-Technologies Used: Python, scikit-learn, Pandas, NumPy, Matplotlib, Natural Language Processing (NLP), TF-IDF Vectorizer, Logistic Regression, Jupyter Notebook.
+**📰 Fake News Detection using Machine Learning**
+
+
+**📌 Overview**
+
+This project detects fake news articles using Machine Learning.
+It preprocesses text data, applies feature extraction, trains classification models, and evaluates their accuracy.
+The goal is to build an automated tool to identify unreliable news sources.
+
+**🚀 Features**
+
+Preprocessing: Text cleaning, stopword removal, and vectorization (TF-IDF).
+
+Models Used:
+
+Logistic Regression
+
+Random Forest Classifier
+
+Performance Evaluation: Train/Test split and accuracy metrics.
+
+Extensible: Can be integrated into APIs or web apps (Flask/Streamlit) for real-time use.
+
+**📊 Dataset**
+
+The dataset contains labeled news articles:
+
+title: Headline of the article
+
+text: Content of the article
+
+label: 1 → Fake, 0 → Real
+
+**⚙️ Installation & Setup**
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/VishalDamahe/fake-news-detection.git
+cd fake-news-detection
+
+2️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+3️⃣ Run the Notebook
+
+Open FakeNews.ipynb in Jupyter Notebook or JupyterLab and run all cells.
+
+**🛠 Requirements**
+
+Python 3.8+
+
+pandas, numpy
+
+scikit-learn
+
+nltk
+
+**Output**
+
+<img width="1825" height="233" alt="Screenshot 2025-08-11 110514" src="https://github.com/user-attachments/assets/7c6dcfd1-a68e-4e55-a2ad-e396f0bc5b82" />
+
+![WhatsApp Image 2025-08-11 at 11 05 31_c0c810ab](https://github.com/user-attachments/assets/dc995a68-2d41-493a-b3c0-58d4605a9fb6)
+
